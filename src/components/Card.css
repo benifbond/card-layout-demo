@@ -1,0 +1,52 @@
+.card {
+  background: #fff;
+  border: 1px solid #e4e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.card-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.card-name {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.card-role {
+  margin: 4px 0 12px;
+  color: #3e7bfa;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.card-bio {
+  margin: 0 0 20px;
+  color: #52606d;
+  line-height: 1.5;
+}
+
+.card-button {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1px solid #3e7bfa;
+  border-radius: 8px;
+  background: #fff;
+  color: #3e7bfa;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background: #3e7bfa;
+  color: #fff;
+}
